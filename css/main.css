@@ -1,0 +1,67 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #222;
+  display: grid;
+  margin: 1rem;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+}
+  
+/* the cards */
+.emoji {
+  border: 1px solid #222;
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+/* card hearders */
+.emoji h2 {
+  margin: 0;
+  border-bottom: 2px solid #ccc;
+}
+
+/* buttons */
+.emoji a {
+  text-decoration: none;
+  background-color: #781BAA;
+  color: white;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+/* icons */
+.icon {
+  font-size: 4rem;
+}
+
+.emojis {
+  max-width: 1000px;
+  height: 600px;
+  margin: auto;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 4fr 1fr;
+  gap: 1rem;
+}
+
+
+h2 {
+  padding: 1rem;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  display: flex;
+  justify-content: center;
+
+}
+
+
